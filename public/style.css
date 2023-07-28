@@ -1,0 +1,25 @@
+body {
+    background-color: #5F9EA0;
+}
+.container-title {
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 7px;
+}
+.container {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.big-container {
+    display: flex;
+    justify-content: space-between;
+}
+.text-container {
+    background-color: whitesmoke;
+    padding: 220px;
+    border-radius: 10px;
+}
