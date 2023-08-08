@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-const connectionString = 'mongodb+srv://zikrya8:MaoIJ6x19J80igqt@cluster0.ht1rhcj.mongodb.net/?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://zikrya8:ygsnYgWwdZRBs8Fw@cluster0.orrapws.mongodb.net/?retryWrites=true&w=majority';
 
 
 const client = new MongoClient(connectionString, {
